@@ -18,15 +18,15 @@ Nuestra propuesta comienza con el preprocesamiento de los datos, donde considera
 - **Tarifa Pagada por el Boleto**: Analizamos la relación entre la tarifa pagada y la supervivencia de los pasajeros.
 - **Sexo del Pasajero**: Consideramos cómo el género del pasajero influye en su probabilidad de supervivencia.
 - **Puerto de Embarcación**: Exploramos si el puerto de embarque tiene algún efecto en las tasas de supervivencia.
-### Discretización de la Columna "Sex"
+#### Discretización de la Columna "Sex"
 Primero, realizamos una discretización de la columna "Sex" para que cada valor corresponda a un entero, facilitando su uso en el modelo.
-### One Hot Encoding para "Embarked"
+#### One Hot Encoding para "Embarked"
 Luego, aplicamos One Hot Encoding para separar la característica 'Embarked' en características dummies, permitiendo que el modelo maneje esta información de manera efectiva.
-### Imputación de Datos Faltantes
+#### Imputación de Datos Faltantes
 Para abordar los datos faltantes, recomendamos utilizar el algoritmo KNN con un parámetro k=4. Esto nos ayudará a imputar valores faltantes de manera precisa.
-### Estandarización de Puntuación Z
+#### Estandarización de Puntuación Z
 Finalmente, recomendamos realizar una estandarización de puntuación z a los datos, asegurando que todas las características estén en la misma escala y facilitando la interpretación del modelo.
-## Modelo Propuesto: Random Forest
+#### Modelo Propuesto: Random Forest
 Para la construcción del modelo, proponemos un Random Forest con los siguientes parámetros:
 - Número de Árboles: 100
 - Criterio de División: Gini
