@@ -10,17 +10,29 @@
 - [Humberto Alejandro Rosas Téllez](mailto:a01659823@tec.mx)
 - [Victoria Estefanía Vázquez Morales](mailto:a01654095@tec.mx)  
 ## Propuesta de solución resumida
-Nuestra propuesta comienza con el preprocesamiento de los datos, donde tomamos las siguientes características: clase del pasajero, edad del pasajero cantidad de hermanos y cónyuges a bordo, cantidad de padres/madres e hijos a bordo, tarifa pagada por el boleto, sexo del pasajero, puerto de embarcación
-Primero se discretiza la columna de Sex de manera que cada valor corresponda a un entero.
-También se utiliza One Hot Encoding para separar la característica 'Embarked' en características dummies.
-Para lidiar con los datos faltantes recomendamos imputar utilizando el algoritmo KNN con parámetro k=4.
-Finalmente recomendamos realizar una estandarización de puntuación z a los datos.
-Terminado este preprocesamiento proponemos un modelo Random Forest con parámetros:
-- 100 árboles
-- criterio de división: Gini
-- mínimo de observaciones por división: 2
-- mínimo de observaciones por hoja: 2
-  
+Nuestra propuesta comienza con el preprocesamiento de los datos, donde consideramos las siguientes características:
+- **Clase del Pasajero**: Analizamos cómo la clase del pasajero afecta a las tasas de supervivencia.
+- **Edad del Pasajero**: Investigamos la relación entre la edad del pasajero y su supervivencia.
+- **Cantidad de Hermanos y Cónyuges a Bordo**: Exploramos cómo la presencia de hermanos y cónyuges afecta las posibilidades de supervivencia.
+- **Cantidad de Padres/Madres e Hijos a Bordo**: Estudiamos el impacto de tener padres/madres e hijos a bordo en las tasas de supervivencia.
+- **Tarifa Pagada por el Boleto**: Analizamos la relación entre la tarifa pagada y la supervivencia de los pasajeros.
+- **Sexo del Pasajero**: Consideramos cómo el género del pasajero influye en su probabilidad de supervivencia.
+- **Puerto de Embarcación**: Exploramos si el puerto de embarque tiene algún efecto en las tasas de supervivencia.
+### Discretización de la Columna "Sex"
+Primero, realizamos una discretización de la columna "Sex" para que cada valor corresponda a un entero, facilitando su uso en el modelo.
+### One Hot Encoding para "Embarked"
+Luego, aplicamos One Hot Encoding para separar la característica 'Embarked' en características dummies, permitiendo que el modelo maneje esta información de manera efectiva.
+### Imputación de Datos Faltantes
+Para abordar los datos faltantes, recomendamos utilizar el algoritmo KNN con un parámetro k=4. Esto nos ayudará a imputar valores faltantes de manera precisa.
+### Estandarización de Puntuación Z
+Finalmente, recomendamos realizar una estandarización de puntuación z a los datos, asegurando que todas las características estén en la misma escala y facilitando la interpretación del modelo.
+## Modelo Propuesto: Random Forest
+Para la construcción del modelo, proponemos un Random Forest con los siguientes parámetros:
+- Número de Árboles: 100
+- Criterio de División: Gini
+- Mínimo de Observaciones por División: 2
+- Mínimo de Observaciones por Hoja: 2
+Este modelo se seleccionó debido a su capacidad para manejar datos faltantes y categóricos, así como su robustez frente al sobreajuste.
 ## Problemas y soluciones
 ### 1. Exploración
 | Problema | Solución |
