@@ -38,10 +38,7 @@ Con la finalidad de tratar de obtener la mayor exactitud y precisión en la pred
 | Problema | Solución |
 | :--: | :--: |
 | Posibles datos con _overfitting_ en nuestro mejor modelo: Random Forest | En las métricas se notó que podría existir un _overfitting_ de los datos en Random Forest, pero al ser un modelo flexible pudimos confiar en la solución |
-----
-### Link al Colab (solo profesores):
+#### Link al Colab (solo profesores):
 [Reto_Titanic_Eq_5.ipynb](https://colab.research.google.com/drive/1Nw_dUGjtbyqSekWWKl9ucUqSrzp3orcj?usp=sharing)
 
-----
-### Presentación (E5_RetoTitanic.pdf):
-[Ver la presentación](E5_RetoTitanic.pdf)
+#### [Ver la presentación del proyecto](E5_RetoTitanic.pdf)
