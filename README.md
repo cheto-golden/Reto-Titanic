@@ -53,9 +53,9 @@ Con la finalidad de tratar de obtener la mayor exactitud y precisión en la pred
 
 | Modelo | Justificación de uso |
 | :--: | :--: |
-| Random Forest Classifier | útil cuando se tiene la presencia de valores faltantes y categóricos, además de, tener una gran capacidad para el manejo de clasificaciones binarias y de ser robusto ante el overfitting. |
-| SVM Kernel RBF | resistente frente a los Outliers y de gran utilidad cuando se tiene datos no linealmente separables (modelos no lineales). |
-| KNeighborsClassifier| es simple de implementar, no requiere parámetros como otros modelos y permite un control entre el balanceo entre el sesgo y varianza que pudieran tener los datos debido a que se puede ajustar el número de vecinos (su complejidad) |
+| Random Forest Classifier | Útil cuando se tiene la presencia de valores faltantes y categóricos, además de, tener una gran capacidad para el manejo de clasificaciones binarias y de ser robusto ante el overfitting. |
+| SVM Kernel RBF | Resistente frente a los Outliers y de gran utilidad cuando se tiene datos no linealmente separables (modelos no lineales). |
+| KNeighborsClassifier| Es simple de implementar, no requiere parámetros como otros modelos y permite un control entre el balanceo entre el sesgo y varianza que pudieran tener los datos debido a que se puede ajustar el número de vecinos (su complejidad) |
 ### 4. Resultados 
 | Problema | Solución |
 | :--: | :--: |
