@@ -38,7 +38,7 @@ Este modelo se seleccionó debido a su capacidad para manejar datos faltantes y 
 ### 1. Exploración
 | Problema | Solución |
 | :--: | :--: |
-| Encontrar features que tuvieran valor para entrenar el modelo | Investigamos datos generes del dataset Titanic, basándonos en hechos históricos sobre cómo se decidió el abordaje los botes, según su clase, edad y sexo. También hicimos una matriz de correlación para comprobar que las features tuvieran alta relación |
+| Encontrar features que tuvieran valor para entrenar el modelo | Investigamos datos generales del dataset Titanic, basándonos en hechos históricos sobre cómo se decidió el abordaje los botes, según su clase, edad y sexo. También hicimos una matriz de correlación para comprobar que las features tuvieran alta relación |
 | Crear nuevas features de valor | Creamos nuevas columnas basándonos en el pronombre de los pasajeros, y encontramos que Miss y Mrs sobrevivieron más que los demás, también creamos una columna del tamaño de las familias, así nos dimos cuenta de que las familias de 4 tenían más probabilidad de sobrevivir |
 | Tratar con datos vacíos | Eliminamos las columnas que tenían muchos datos vacíos, como Cabin |
 ### 2. Pre procesamiento 
