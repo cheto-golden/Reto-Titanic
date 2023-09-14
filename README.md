@@ -41,6 +41,7 @@ Con la finalidad de tratar de obtener la mayor exactitud y precisión en la pred
 ----
 ### Link al Colab (solo profesores):
 [Reto_Titanic_Eq_5.ipynb](https://colab.research.google.com/drive/1Nw_dUGjtbyqSekWWKl9ucUqSrzp3orcj?usp=sharing)
+
 ----
 ### Presentación (E5_RetoTitanic.pdf):
 [Ver la presentación](E5_RetoTitanic.pdf)
