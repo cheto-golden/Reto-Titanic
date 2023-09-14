@@ -10,7 +10,16 @@
 - [Humberto Alejandro Rosas Téllez](mailto:a01659823@tec.mx)
 - [Victoria Estefanía Vázquez Morales](mailto:a01654095@tec.mx)  
 ## Propuesta de solución resumida
-
+Nuestra propuesta comienza con el preprocesamiento de los datos, donde tomamos las siguientes características: clase del pasajero, edad del pasajero cantidad de hermanos y cónyuges a bordo, cantidad de padres/madres e hijos a bordo, tarifa pagada por el boleto, sexo del pasajero, puerto de embarcación
+Primero se discretiza la columna de Sex de manera que cada valor corresponda a un entero.
+También se utiliza One Hot Encoding para separar la característica 'Embarked' en características dummies.
+Para lidiar con los datos faltantes recomendamos imputar utilizando el algoritmo KNN con parámetro k=4.
+Finalmente recomendamos realizar una estandarización de puntuación z a los datos.
+Terminado este preprocesamiento proponemos un modelo Random Forest con parámetros:
+- 100 árboles
+- criterio de división: Gini
+- mínimo de observaciones por división: 2
+- mínimo de observaciones por hoja: 2
   
 ## Problemas y soluciones
 ### 1. Exploración
