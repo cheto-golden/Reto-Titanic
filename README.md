@@ -18,7 +18,8 @@ Nuestra propuesta comienza con el preprocesamiento de los datos, donde considera
 - **Tarifa Pagada por el Boleto**: Analizamos la relación entre la tarifa pagada y la supervivencia de los pasajeros.
 - **Sexo del Pasajero**: Consideramos cómo el género del pasajero influye en su probabilidad de supervivencia.
 - **Puerto de Embarcación**: Exploramos si el puerto de embarque tiene algún efecto en las tasas de supervivencia.
-|          Criterio             | Descripción                                                                                                  |
+  
+|                       | Descripción                                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------------------------------ |
 | **Discretización de la Columna "Sex"**         | Realizamos una discretización de la columna "Sex" para que cada valor corresponda a un entero, facilitando su uso en el modelo.                   |
 | **One Hot Encoding para "Embarked"** | Aplicamos One Hot Encoding para separar la característica 'Embarked' en características dummies, permitiendo que el modelo maneje esta información de manera efectiva.   |
