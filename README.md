@@ -32,6 +32,7 @@ Para la construcción del modelo, proponemos un Random Forest con los siguientes
 - Criterio de División: Gini
 - Mínimo de Observaciones por División: 2
 - Mínimo de Observaciones por Hoja: 2
+  
 Este modelo se seleccionó debido a su capacidad para manejar datos faltantes y categóricos, así como su robustez frente al sobreajuste.
 ## Problemas y soluciones
 ### 1. Exploración
