@@ -1,6 +1,9 @@
 # Reto: Titanic - Machine Learning from Disaster
-![[titanic.png]]
-## Equipo 5
+<p align="center">
+  <img src="images/titanic.png" alt="Titanic Disaster">
+</p>
+
+# Equipo 5
 ## Integrantes de equipo:
 - [María Lynne Camacho Padilla](mailto:a01423135@tec.mx)
 - [Emiliano Ferreira Guadarrama](mailto:a01654418@tec.mx)
@@ -37,5 +40,5 @@ Con la finalidad de tratar de obtener la mayor exactitud y precisión en la pred
 | :--: | :--: |
 | Posibles datos con _overfitting_ en nuestro mejor modelo: Random Forest | En las métricas se notó que podría existir un _overfitting_ de los datos en Random Forest, pero al ser un modelo flexible pudimos confiar en la solución |
 
-# Link al Colab (solo profesores):
+## Link al Colab (solo profesores):
 [Reto_Titanic_Eq_5.ipynb](https://colab.research.google.com/drive/1Nw_dUGjtbyqSekWWKl9ucUqSrzp3orcj?usp=sharing)
