@@ -9,7 +9,7 @@
 - [Emiliano Ferreira Guadarrama](mailto:a01654418@tec.mx)
 - [Humberto Alejandro Rosas Téllez](mailto:a01659823@tec.mx)
 - [Victoria Estefanía Vázquez Morales](mailto:a01654095@tec.mx)  
-## Propuesta de solución resumida:
+## Propuesta de solución resumida
 
   
 ## Problemas y soluciones
@@ -41,3 +41,6 @@ Con la finalidad de tratar de obtener la mayor exactitud y precisión en la pred
 ----
 ### Link al Colab (solo profesores):
 [Reto_Titanic_Eq_5.ipynb](https://colab.research.google.com/drive/1Nw_dUGjtbyqSekWWKl9ucUqSrzp3orcj?usp=sharing)
+----
+### Presentación (E5_RetoTitanic.pdf):
+[Ver la presentación](E5_RetoTitanic.pdf)
