@@ -60,5 +60,5 @@ Con la finalidad de tratar de obtener la mayor exactitud y precisión en la pred
 | :--: | :--: |
 | Posibles datos con _overfitting_ en nuestro mejor modelo: Random Forest | En las métricas se notó que podría existir un _overfitting_ de los datos en Random Forest, pero al ser un modelo flexible pudimos confiar en la solución 
 ## Enlaces Útiles
-#### [Link al Colab (solo profesores)](https://colab.research.google.com/drive/1Nw_dUGjtbyqSekWWKl9ucUqSrzp3orcj?usp=sharing)
-#### [Ver la presentación del proyecto](E5_RetoTitanic.pdf)
+- #### [Link al Colab (solo profesores)](https://colab.research.google.com/drive/1Nw_dUGjtbyqSekWWKl9ucUqSrzp3orcj?usp=sharing)
+- #### [Ver la presentación del proyecto](E5_RetoTitanic.pdf)
